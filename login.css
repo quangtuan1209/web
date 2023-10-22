@@ -1,0 +1,134 @@
+
+*{
+    margin: auto;
+}
+body{
+  
+    background: url('../img/anhlogin.jpg');
+}
+
+
+.login{
+    
+    width: 300px;
+    height: 100px;
+    margin-top: 150px;
+    text-align: center;
+}
+.login h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: Lucida;
+    color: rgb(7, 7, 7);
+
+}
+
+.main{
+    width: 420px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.main input{
+    width: 370px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.main p{
+    text-align:right;
+    margin-right: 30px;
+}
+.main a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.main .ok{
+    outline: none;
+    width: 150px;
+    height: 30px;
+    margin: 5px 0px 0px 30%;
+    padding-left: 10px;
+    text-align: center;
+    background-color: #70a32d;
+    font-family: serif;
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+}
+.ok:hover{
+    background-color: #c5e02a;
+}
+.main span{
+    font-size: 15px;
+    margin-left: -30px;
+}
+.meomeo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+  /* style signup */
+
+.signup {
+    display: flex;
+    height: 100vh;
+    background: url('../img/anhlogin.jpg');
+  }
+  .signup_container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgb(234, 234, 158);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .signup_container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .signup_container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup_container form input {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 40px;
+  }
+  .signup_container form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #57a057;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .signup_container form button:hover {
+    background: #70a32d;
+  }
+  .signup_container form a {
+    font-size: 1.2rem;
+    
+    color:darkgreen;
+  }
+  .signup_container form a:hover {
+    color: #c5e02a;
+  }
+  .signup_registerButton {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
+  }
